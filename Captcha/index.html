@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../Captcha/style.css">
+    <title>Captcha Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div style="width: 100%; display: flex; justify-content: space-between;">
+            <div id="captcha">
+            </div>
+            <button class="regenerateBtn" style="width: 5rem;" onclick="create()">
+                <i class="fas fa-redo"></i>
+            </button>
+        </div>
+        <input type="text" placeholder="Enter the code here..." id="captchaTextBox"/>
+        <button onclick="validate()">Submit</button>
+    </div>
+    <script src="../Captcha/script.js"></script>
+</body>
+</html>
